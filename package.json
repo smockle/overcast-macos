@@ -4,7 +4,8 @@
   "description": "A minimal Overcast desktop application for macOS.",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-packager . Overcast --icon=icon --overwrite --out=bin"
   },
   "repository": "https://github.com/nathanbirrell/overcast-macos",
   "keywords": [
